@@ -13,22 +13,22 @@ import java.util.Map;
 
 public class MockLauncher extends Launcher {
 
-	public MockLauncher(TaskListener listener, VirtualChannel channel) {
-		super(listener, channel);
-	}
+  public MockLauncher(TaskListener listener, VirtualChannel channel) {
+    super(listener, channel);
+  }
 
-	@Override
-	public Proc launch(ProcStarter procStarter) throws IOException {
-		return null;
-	}
+  @Override
+  public Proc launch(ProcStarter procStarter) throws IOException {
+    return null;
+  }
 
-	@Override
-	public Channel launchChannel(String[] strings, OutputStream outputStream, FilePath filePath, Map<String, String> map) throws IOException, InterruptedException {
-		return null;
-	}
+  @Override
+  public Channel launchChannel(String[] strings, OutputStream outputStream, FilePath filePath, Map<String, String> map) throws IOException, InterruptedException {
+    return null;
+  }
 
-	@Override
-	public void kill(Map<String, String> map) throws IOException, InterruptedException {
+  @Override
+  public void kill(Map<String, String> map) throws IOException, InterruptedException {
 
-	}
+  }
 }
